@@ -1,0 +1,170 @@
+.containerLogin{
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.insiderContainer{
+    max-width: 444px;
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.sfjwdfip1{
+    font-size: clamp(1.6rem, 5vw, 2rem);
+    font-weight: 600;   
+    text-align: center; 
+    color: #202020;
+    margin-bottom: 1rem;
+    opacity: 0;
+    animation: slideInFromBottom 1.111s forwards;
+}
+
+
+.sfjwdfip2{
+    font-size: clamp(14px, 5vw, 15px);
+    font-weight: 400;   
+    color: #5f5f5f;
+    text-align: center; 
+    margin-bottom: 3.333rem;
+    opacity: 0;
+    animation: slideInFromBottom 1.111s 0.2s forwards;
+
+}
+
+.containerOfInput{
+    opacity: 0;
+    animation: slideInFromBottom 1.111s 0.4s forwards;
+    min-height: 60px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.containerOfInput2{
+    opacity: 0 ;
+    animation: slideInFromBottom 1.111s 0.6s forwards !important;
+}
+
+.containerOfInput input{
+    border: 1.5px solid #cbcbcb;
+    outline: none;
+    border-radius: .333rem;
+    height: 45px;
+    width: 100%;
+    padding: 0 1rem;
+}
+
+.containerOfInput input:focus{
+    border: 2px solid #FFA726; 
+}
+.containerOfInput label{
+    margin-bottom: .5rem;
+    font-size: clamp(14px, 5vw, 15px);
+    color: #5f5f5f;   
+    font-weight: 500;
+}
+
+.Connexionbtn{
+    width: 100%;
+    height: 45px;
+    margin-top: 1rem ;
+    background: linear-gradient(90deg, #d08616, #d98c19, #FFA726, #f8b632);
+    color: white;
+    outline: none;
+    border: 1px solid white;
+    border-radius: .4rem;
+    cursor: pointer;
+    font-size: 15.3px;
+    transition: .1s all ease-in-out;
+    font-weight: 500;
+    opacity: 0 ;
+    animation: slideInFromBottom 1.111s 0.8s forwards !important;
+
+}
+
+.Connexionbtn:hover{
+    background: linear-gradient(90deg, #a96c11, #c27d15, #df921f, #f3af29);
+}
+
+.usfwodfuushwdfo{
+    text-align: center;
+    width: 100%;
+    color: #5f5f5f;
+    opacity: 0 ;
+    animation: slideInFromBottom 1.111s 1s forwards !important;
+
+    margin-top: 2rem !important;
+}
+.usfwodfuushwdfo a{
+    text-decoration: underline;
+    color: #FFA726;
+    font-weight: 500;
+    font-size: clamp(14px, 5vw, 15px);
+
+}
+
+.Connexionbtn2{
+    background-color: white;
+    border: 1.8px solid #FFA726;
+    color: #FFA726;
+    display: flex;
+    margin-top: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.Connexionbtn2:hover{
+    background-color: #FFA7261b;
+    border: 1.8px solid #FFA726;
+    color: #FFA726;
+}
+
+.oubien{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.3rem 0;
+    opacity: 0 ;
+    animation: slideInFromBottom 1.111s 0.8s forwards !important;
+
+}
+
+.oubien span{
+    margin: 0 1rem;
+    color: gray;
+    font-size: 14px;
+}
+
+.oubien .lineThrough{
+    height: 1px ;
+    flex: 1;
+    background-color: gainsboro;
+}
+
+
+
+@keyframes slideInFromBottom {
+    0% {
+        transform: translateY(25px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+.EDUMYOS{
+    background: linear-gradient(90deg, #c07a12, #d08616, #d98c19, #FFA726, #f8b632, #ffc552);
+    -webkit-background-clip: text;
+    font-weight: 700 ;
+    -webkit-text-fill-color: transparent;
+}
