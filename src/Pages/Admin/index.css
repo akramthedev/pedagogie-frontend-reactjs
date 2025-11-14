@@ -1,0 +1,75 @@
+.titlePageContainerFirst{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titlePage1{
+    font-weight: 600;
+    font-size: 21px;
+    color: #353535;
+}
+
+.titlePage2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.datePicker{
+    height: 39px ;
+    width: 135px;
+    padding: 0 10px;
+    border-radius: 0.5rem !important;
+    border: 1px solid #ff99002a;
+    background-color: #ff99001a;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+    margin-right: 15px;
+}
+
+.textDate{
+    font-size: 14px;
+    color: #282828;
+}
+
+.iconDate{
+}
+
+.datePicker2{
+    height: 39px ;
+    width: 150px;
+    padding: 0 10px;
+}
+
+.iconDate2{
+    margin-top: 7px !important;
+}
+
+
+.datePicker3{
+    height: 39px ;
+    width: 110px;
+    padding: 0 10px;
+}
+
+
+
+.datePicker22{
+     height: 39px ;
+    width: 188px;
+    padding: 0 10px;
+}
+
+.datePickerShort{
+    width: 39px;
+    padding:  0 !important;
+    display: flex;
+    margin: 0 !important;
+    align-items: center;
+    justify-content: center;
+}

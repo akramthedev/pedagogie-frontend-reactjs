@@ -1,3 +1,6 @@
+*{
+  outline: none !important;
+} 
 .customPopup {
     visibility: hidden;
     opacity: 0;
@@ -52,4 +55,210 @@
 .error{
     background-color: #ffe5e5;
     border: 1px solid #ed9d9d;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Sidebar Layout */
+.adm-sidebar {
+  width: 240px;
+  min-height: 100vh;
+  background: #ffffff;
+  border-right: 1px solid #e6e6e6;
+  display: flex;
+  flex-direction: column;
+  transition: width 0.2s ease;
+  padding: 12px;
+  gap: 12px;
+  box-sizing: border-box;
+}
+
+.adm-sidebar.closed {
+  width: 64px;
+}
+
+/* Top: Brand + Toggle */
+.adm-sidebar-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.adm-brand {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+}
+
+.adm-logo svg {
+  display: block;
+  border-radius: 6px;
+}
+
+.adm-brand-text {
+  font-weight: 700;
+  font-size: 16px;
+  background: linear-gradient(90deg, #c07a12, #d08616, #d98c19, #FFA726, #f8b632, #ffc552);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  white-space: nowrap;
+}
+
+/* Toggle button */
+.adm-toggle-btn {
+  background: transparent;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s ease;
+}
+
+
+/* Navigation */
+.adm-nav {
+  flex: 1;
+  overflow-y: auto;
+  margin-top: 9px;
+}
+.adm-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.adm-nav li {
+  margin-bottom: 3px;
+}
+.adm-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 400;
+  width: 100%;
+  padding: 10px 10px;
+  border-radius: 7px;
+  color: #000000;
+  text-decoration: none;
+  transition: background 0.05s ease, color 0.2s ease;
+}
+.adm-link:hover {
+  background: #ff7b0015;  
+  color: #000000;
+}
+
+.adm-link-text {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+/* Pedagogical section */
+ 
+
+/* Footer / user */
+.adm-sidebar-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding-top: 6px;
+  border-top: 1px solid #FFFFFF;
+}
+.adm-user {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.adm-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #d1d5db;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 700;
+}
+.adm-user-info {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+.adm-user-name {
+  font-weight: 600;
+  font-size: 15px;
+}
+.adm-user-role {
+  font-size: 15px;
+  color: #000000;
+}
+
+/* Logout button */
+.adm-footer-actions .adm-logout-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 10px;
+  border-radius: 8px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #000000;
+  font-weight: 400;
+  font-size: 15px !important;
+  transition: background 0.2s ease;
+}
+.adm-footer-actions .adm-logout-btn:hover {
+  background: #fff8e1; /* light orange hover */
+}
+
+/* Small screens */
+@media (max-width: 768px) {
+  .adm-sidebar {
+    position: fixed;
+    z-index: 50;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    transform: translateX(0);
+  }
+}
+
+
+/* Active Link */
+.adm-nav li.active .adm-link {
+  color: #f06407;
+  background-color: #ff99001e;
+}
+
+
+ 
+
+.husidf{
+  height: 36px;
+  width: 40px;
+  background-color: #ff99001e;
+  border-radius: 7px;
+  outline: none;
+  border: none;
+  cursor: pointer;
 }
